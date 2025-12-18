@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-# Accident Detection System
 
 
 1. Demonstration
@@ -44,11 +41,10 @@ This program includes 4 things.
 ## 6. Future Work
 
 We can use an alarm system that can call the nearest police station in case of an accident and also alert them of the severity of the accident.
-=======
+
 # AI-Based-Accident-Detection-System
 A real-time accident detection system using TensorFlow/Keras CNN and OpenCV, capable of analyzing live video feeds to accurately identify road accidents. Includes automated SMTP email alerts, sound notifications, and time/location tagging using Geocoder to enable immediate emergency response.
->>>>>>> 8b12ab6d8cf229bfc109337247698bd3b45b0822
-=======
-# AI-Based-Accident-Detection-System
-A real-time accident detection system using TensorFlow/Keras CNN and OpenCV, capable of analyzing live video feeds to accurately identify road accidents. Includes automated SMTP email alerts, sound notifications, and time/location tagging using Geocoder to enable immediate emergency response.
->>>>>>> 7626245ea3d1ad4a9b0eff8235d37f2b97d068b7
+
+
+
+
