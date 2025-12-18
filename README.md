@@ -100,7 +100,7 @@ python main.py
 You can link your ResearchGate paper or a PDF uploaded in your repo:
 
 ```md
-[Read Our Research Paper](https://www.researchgate.net/publication/YOUR_PAPER_ID)
+[Read Our Research Paper]([https://www.researchgate.net/publication/YOUR_PAPER_ID](https://www.researchgate.net/publication/397173859_A_MINI_PROJECT_REPORT_ON_ACCIDENT_DETECTION_USING_AI))
 ```
 
 Or, if uploading a PDF to `docs/` folder:
