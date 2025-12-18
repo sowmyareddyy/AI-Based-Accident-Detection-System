@@ -11,14 +11,9 @@ A real-time accident detection system built using **TensorFlow/Keras CNN** and *
 
 ## 1. Demonstration
 
-You can showcase your demo video or GIF here:
 
-### Option 1: GIF Preview
-```md
-![Demo](assets/demo.gif)
-````
 
-### Option 2: YouTube or hosted video
+### hosted video
 
 [Watch Demo Video](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
 
