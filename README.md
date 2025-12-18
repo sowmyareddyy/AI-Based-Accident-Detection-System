@@ -103,35 +103,16 @@ You can link your ResearchGate paper or a PDF uploaded in your repo:
 [Read Our Research Paper]([https://www.researchgate.net/publication/YOUR_PAPER_ID](https://www.researchgate.net/publication/397173859_A_MINI_PROJECT_REPORT_ON_ACCIDENT_DETECTION_USING_AI))
 ```
 
-Or, if uploading a PDF to `docs/` folder:
-
-```md
-[Download PDF](docs/Accident-Detection-Paper.pdf)
-```
-
 ---
 
 ## 9. Contact / Support
 
 * Author: Sowmya Reddy
 * GitHub: [https://github.com/sowmyareddyy](https://github.com/sowmyareddyy)
-* Email: [your-email@example.com](mailto:your-email@example.com)
+
 
 ---
 
 ```
 
-### ✅ Notes for your repo:
-
-1. **Video:** Convert demo clip to GIF for inline preview or link to YouTube.  
-2. **Research paper:** Either link ResearchGate URL or include PDF in `docs/`.  
-3. **Badges:** Already included; you can adjust versions if needed.  
-4. **Screenshots:** Add images/GIFs in `assets/` and reference them in the README.  
-
----
-
-If you want, I can also make a **slimmer, recruiter-friendly version** under 150–200 words that highlights **impact, tech stack, and results**, perfect for GitHub portfolios.  
-
-Do you want me to do that next?
-```
 
