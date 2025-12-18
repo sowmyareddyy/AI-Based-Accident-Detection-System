@@ -1,50 +1,137 @@
 
+# AI-Based Real-Time Accident Detection System
 
-1. Demonstration
-2. What is Accident Detection System?
-3. Prerequisites
-4. Getting Started- How to use it?
-5. Description
-6. Future Work
+![Python](https://img.shields.io/badge/python-3.10-blue)
+![TensorFlow](https://img.shields.io/badge/tensorflow-2.12-orange)
+![OpenCV](https://img.shields.io/badge/opencv-4.7.0-brightgreen)
 
+A real-time accident detection system built using **TensorFlow/Keras CNN** and **OpenCV**, capable of analyzing live video feeds to accurately detect road accidents. The system includes **automated email alerts**, **sound notifications**, and **time/location tagging** using Geocoder to enable immediate emergency response.
 
+---
 
-## 2. What is Accident Detection System?
+## 1. Demonstration
 
-An accident Detection System is designed to detect accidents via video or CCTV footage. Road accidents are a significant problem for the whole world. Many people lose their lives in road accidents. We can minimize this issue by using CCTV accident detection. This repository majorly explores how CCTV can detect these accidents with the help of Deep Learning.
+You can showcase your demo video or GIF here:
 
-## 3. Prerequisites
+### Option 1: GIF Preview
+```md
+![Demo](assets/demo.gif)
+````
 
-- To use this project Python Version > 3.6 is recommended.
-- To contribute to this project, knowledge of basic python scripting, Machine Learning, and Deep Learning will help.
+### Option 2: YouTube or hosted video
 
-## 4. Getting Started - How to use it?
+[Watch Demo Video](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
 
+---
 
-To install all the packages required to run this python program
-`pip install -r requirements.txt`
+## 2. Project Description
 
-**Note:** This project requires a camera. So make sure you have a connected camera to your device. You can also use a downloaded video if not using a camera.
+* Built a **real-time accident detection system** using TensorFlow/Keras CNN and OpenCV
+* Integrated **automated email alerts (SMTP)** and **sound notifications**
+* Included **time and location tagging** for emergency response
+* **Tech Stack:** Python, TensorFlow, Keras, OpenCV, NumPy, winsound, Email API, geocoder, datetime
 
-### Run
-Before running the program, you need to run the `accident-classification.ipynb` file which will create the `model_weights.h5` file. Then, to run this python program, you need to execute the `main.py` python file.
+---
 
-## 5. Description
+## 3. What is an Accident Detection System?
 
-This program includes 4 things.
+An Accident Detection System detects accidents via video or CCTV footage. Road accidents are a major global issue causing significant loss of life. This project explores how CCTV footage combined with Deep Learning can automatically detect accidents and enable faster emergency response.
 
-1. `data`: Kaggle dataset on [Accident Detection from CCTV footage](https://www.kaggle.com/code/mrcruise/accident-classification/data).
-2. `accident-classification.ipynb`: This is a jupyter notebook that generates a model to classify the above data. This file generates two important files `model.json` and `model_weights.h5`.
-3. `detection.py`: This file loads the Accident Detection system with the help of `model.json` and `model_weights.h5` files.
-4. `camera.py`: It packs the camera and executes the `detection.py` file on the video dividing it frame by frame and displaying the percentage of the prediction in the accident (if present) in the frame.
+---
 
-## 6. Future Work
+## 4. Prerequisites
 
-We can use an alarm system that can call the nearest police station in case of an accident and also alert them of the severity of the accident.
+* Python >= 3.6
+* Basic knowledge of Python scripting, Machine Learning, and Deep Learning
+* Camera connected to your device (or a prerecorded video)
 
-# AI-Based-Accident-Detection-System
-A real-time accident detection system using TensorFlow/Keras CNN and OpenCV, capable of analyzing live video feeds to accurately identify road accidents. Includes automated SMTP email alerts, sound notifications, and time/location tagging using Geocoder to enable immediate emergency response.
+---
 
+## 5. Getting Started
 
+### Install dependencies
 
+```bash
+pip install -r requirements.txt
+```
+
+### Run the project
+
+1. Train and generate model weights:
+
+```bash
+accident-classification.ipynb
+```
+
+This creates:
+
+* `model.json`
+* `model_weights.h5`
+
+2. Run the main Python program:
+
+```bash
+python main.py
+```
+
+> ⚠️ **Note:** `model_weights.h5` is not included due to GitHub size limits. Run the notebook to generate it.
+
+---
+
+## 6. Description of Files
+
+* `data/` – Kaggle dataset for accident detection from CCTV footage
+* `accident-classification.ipynb` – Notebook to train the CNN model and generate `model.json` and `model_weights.h5`
+* `detection.py` – Loads the trained model and performs accident detection
+* `camera.py` – Captures video frames and displays accident probability in real time
+
+---
+
+## 7. Future Work
+
+* Integrate automated emergency call alerts
+* Estimate accident severity using advanced models
+* Deploy on edge devices for real-time monitoring
+
+---
+
+## 8. Research Paper
+
+You can link your ResearchGate paper or a PDF uploaded in your repo:
+
+```md
+[Read Our Research Paper](https://www.researchgate.net/publication/YOUR_PAPER_ID)
+```
+
+Or, if uploading a PDF to `docs/` folder:
+
+```md
+[Download PDF](docs/Accident-Detection-Paper.pdf)
+```
+
+---
+
+## 9. Contact / Support
+
+* Author: Sowmya Reddy
+* GitHub: [https://github.com/sowmyareddyy](https://github.com/sowmyareddyy)
+* Email: [your-email@example.com](mailto:your-email@example.com)
+
+---
+
+```
+
+### ✅ Notes for your repo:
+
+1. **Video:** Convert demo clip to GIF for inline preview or link to YouTube.  
+2. **Research paper:** Either link ResearchGate URL or include PDF in `docs/`.  
+3. **Badges:** Already included; you can adjust versions if needed.  
+4. **Screenshots:** Add images/GIFs in `assets/` and reference them in the README.  
+
+---
+
+If you want, I can also make a **slimmer, recruiter-friendly version** under 150–200 words that highlights **impact, tech stack, and results**, perfect for GitHub portfolios.  
+
+Do you want me to do that next?
+```
 
