@@ -97,13 +97,9 @@ python main.py
 
 ## 8. Research Paper
 
-You can link your ResearchGate paper or a PDF uploaded in your repo:
 
-```md
-[Read Our Research Paper]([https://www.researchgate.net/publication/YOUR_PAPER_ID](https://www.researchgate.net/publication/397173859_A_MINI_PROJECT_REPORT_ON_ACCIDENT_DETECTION_USING_AI))
-```
+[Read Our Research Paper](https://www.researchgate.net/publication/397173859_A_MINI_PROJECT_REPORT_ON_ACCIDENT_DETECTION_USING_AI)
 
----
 
 ## 9. Contact / Support
 
@@ -111,8 +107,5 @@ You can link your ResearchGate paper or a PDF uploaded in your repo:
 * GitHub: [https://github.com/sowmyareddyy](https://github.com/sowmyareddyy)
 
 
----
-
-```
 
 
