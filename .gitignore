@@ -1,5 +1,17 @@
-*.ipynb_checkpoints
-*__pycache__
-/cars.mp4
-/model_weights.h5venv/
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
 venv/
+.env/
+
+# Model files (VERY IMPORTANT)
+model_weights.h5
+*.h5
+
+# Large / raw files
+cars.mp4
